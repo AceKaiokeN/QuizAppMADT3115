@@ -16,6 +16,8 @@
 		C84DD0DF2739737800B73E3F /* QuizAppMADT3115Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84DD0DE2739737800B73E3F /* QuizAppMADT3115Tests.swift */; };
 		C84DD0E92739737800B73E3F /* QuizAppMADT3115UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84DD0E82739737800B73E3F /* QuizAppMADT3115UITests.swift */; };
 		C84DD0EB2739737800B73E3F /* QuizAppMADT3115UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84DD0EA2739737800B73E3F /* QuizAppMADT3115UITestsLaunchTests.swift */; };
+		C84DD0F82739739D00B73E3F /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84DD0F72739739D00B73E3F /* Questions.swift */; };
+		C86755D827398F7E00EB11AA /* ShowResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86755D727398F7E00EB11AA /* ShowResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C84DD0E42739737800B73E3F /* QuizAppMADT3115UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppMADT3115UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84DD0E82739737800B73E3F /* QuizAppMADT3115UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppMADT3115UITests.swift; sourceTree = "<group>"; };
 		C84DD0EA2739737800B73E3F /* QuizAppMADT3115UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppMADT3115UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C84DD0F72739739D00B73E3F /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		C86755D727398F7E00EB11AA /* ShowResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				C84DD0D02739737800B73E3F /* Assets.xcassets */,
 				C84DD0D22739737800B73E3F /* LaunchScreen.storyboard */,
 				C84DD0D52739737800B73E3F /* Info.plist */,
+				C84DD0F72739739D00B73E3F /* Questions.swift */,
+				C86755D727398F7E00EB11AA /* ShowResult.swift */,
 			);
 			path = QuizAppMADT3115;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C84DD0CC2739737600B73E3F /* ViewController.swift in Sources */,
+				C84DD0F82739739D00B73E3F /* Questions.swift in Sources */,
 				C84DD0C82739737600B73E3F /* AppDelegate.swift in Sources */,
 				C84DD0CA2739737600B73E3F /* SceneDelegate.swift in Sources */,
+				C86755D827398F7E00EB11AA /* ShowResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +445,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WK76XAU4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QuizAppMADT3115/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuizApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -453,6 +464,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = KaiokeN.QuizAppMADT3115;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,10 +476,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WK76XAU4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QuizAppMADT3115/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuizApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -480,6 +495,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = KaiokeN.QuizAppMADT3115;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
